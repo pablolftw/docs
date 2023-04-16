@@ -761,4 +761,11 @@ El ataque consistió en robo de información personal de los trabajadores, robo 
 * **Estrategia**: La empresa debe restringir el acceso solo a aquellos empleados que necesiten ingresar a la cuenta para realizar su trabajo. Además, es importante restringirlo mediante el uso de contraseñas fuertes y autenticación de dos factores, y en entrenamiento en seguridad a otros empleados.
   * **Solución**: Utilizar  Hootsite para el monitoreo de la actividad de la cuenta [HootSuite] (https://hootsuite.com).
   HootSuite es una plataforma web y móvil para gestionar redes sociales por parte de personas u organizaciones. Con esta herramienta se pueden realizar diferentes funciones (programación de publicaciones,monitoreo de redes sociales, análisis de redes sociales e integración de aplicaciones de terceros).
-  De esta aplicación nos interesa el monitoreo de la cuenta pues facilita el seguimiento de la actividad y la participación en las redes sociales y a tener control sobre estas. 
+  De esta aplicación nos interesa el monitoreo de la cuenta pues facilita el seguimiento de la actividad y la participación en las redes sociales y a tener control sobre estas.
+
+### 2023
+* [Feds Describe Intelligence Leak Probe as Criminal Matter] (https://www.bankinfosecurity.com/feds-describe-intelligence-leak-probe-as-criminal-matter-a-21682)
+* **Fuente**: Pablo López
+* **Descripción**: Personal militar de IT de bajo nivel de Estados Unidos es detenido por el FBI por sospecha de filtracion de documentos clasificados en su servidor de Discord. Estos documentos podrian incluir desde informes de evaluación de la guerra de Rusia y Ucrania hasta informes de inteligencia sobre misiles norcoreanos.
+* **Estrategia**: Una forma en la que podría haber sido evitado este incidente es que la empresa hubiera implementado un sistema de control de acceso basado en roles, de tal manera que solo los empleados que necesitan acceder a los documentos clasificados puedan hacerlo. Estos sistemas habitualmente se llaman RBAC (Role Based Access Control).
+* **Solución**: Utilizar un sistema de control de acceso basado en roles, como por ejemplo [Azure RBAC](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview). Es muy probable que el ejercito de Estados Unidos ya tenga implementado un sistema de este tipo, pero debería revisarse para asegurarse de que se cumplan las políticas de seguridad.
